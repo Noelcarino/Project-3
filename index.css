@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
+header {
+    font-size: 30px;
+}
+
+body {
+    background-color: dimgrey;
+    opacity: 0.9;
+}
+
+
+/* Navigation Bar 
+================================ */
+#ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#li-navbar {
+    float: left;
+}
+
+#li-navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#li-navbar a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+/* Section
+================================ */
+
+section {
+    background-color: white;
+    padding: 12px;
+    max-width: 45%;
+    margin: auto;
+}
+
+p {
+    padding-top: 20px;
+}
+
+/* Section
+================================ */
+
+#topButton {
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float:right;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    border-radius: 200px;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+#topButton:hover {
+    transition: 0.5s;
+    background-color: blue;
+    opacity 1;
+}
+
+
+
+
+
+
+
+
+/* Media Query - 500px or smaller 
+
+    - When the Screen reaches 600px, the following takes place
+
+    *Remember that Media queries should be at the bottom
+    *The code prior to this code will take precedence
+================================ */
+
+@media (min-width:750px) {
+    
+    #ul-navbar {
+        position: fixed;
+        height: 100%;
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+    
+    #li-navbar {
+        float: left;
+        overflow: hidden;
+        
+    }
+    
+    #li-navbar a {
+        display:inline-block;
+        overflow: hidden;
+        margin: 7px;
+        padding: 7px;
+        text-align: left;
+        font-size: 15.4px
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+
